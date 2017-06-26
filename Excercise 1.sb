@@ -1,0 +1,70 @@
+TextWindow.Title = "The word's greatest program!"
+TextWindow.WriteLine("Welcome to the world's greatest program!" )
+start:
+TextWindow.WriteLine("")
+Program.Delay(2000)
+TextWindow.WriteLine("You will give me two numbers, and I will tell you which one is smaller! Ready to play? (y/n): ")
+Answer = TextWindow.Read()
+If Answer = "n" Then
+  Program.Delay(1000)
+  TextWindow.WriteLine("But thou must!" )
+  Goto start
+ElseIf Answer = "y" then
+  Goto continue
+Else
+  Program.Delay(1000)
+  TextWindow.WriteLine("I DON'T UNDERSTAND YOUR STRANGE HUMAN WAYS; TRY AGAIN. ")
+  Goto start
+EndIf
+Continue:
+Program.Delay(1000)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Okay, give me the first number. ")
+First_Number = TextWindow.ReadNumber()
+Program.Delay(1000)
+TextWindow.WriteLine("Classic number. Nice choice. ")
+Program.Delay(1000)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Okay, give me the second number. ")
+Second_Number = TextWindow.ReadNumber()
+Program.Delay(1000)
+TextWindow.WriteLine("Ooh, that's another good one. ")
+Program.Delay(1000)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Ok, get ready to be amazed. ")
+Program.Delay(2000)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("PROCESSING......" )
+Program.Delay(1000)
+TextWindow.WriteLine("")
+TextWindow.WriteLine("Eureka, I've got the answer!" )
+Program.Delay(1000)
+TextWindow.WriteLine("The lower number is..." )
+Program.Delay(1000)
+
+If (First_Number < Second_Number) Then
+  TextWindow.WriteLine(First_Number + "!")
+  Program.Delay(1000)
+  TextWindow.WriteLine("I bet you're impressed!")
+ElseIf (Second_Number < First_Number) then
+  TextWindow.WriteLine(Second_Number + "!")
+  Program.Delay(1000)
+  TextWindow.WriteLine("Are you not amazed?")
+Else
+  TextWindow.WriteLine("Neither!")
+  Program.Delay(1000)
+  TextWindow.WriteLine("Bet you thought you could fool me!")
+EndIf
+Program.Delay(2000)
+TextWindow.WriteLine("Ok, let's do it again!" )
+Goto start
+
+
+
+  
+
+
+
+
+
+  

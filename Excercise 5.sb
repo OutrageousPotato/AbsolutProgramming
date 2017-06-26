@@ -1,0 +1,37 @@
+TextWindow.Title = ("Branch Status")
+Local_Time = Clock.Time
+Local_Hour = Clock.Hour
+New_York_Hour = Local_Hour + 3
+London_Hour = Local_Hour + 8
+Local_Status = "closed"
+New_York_Status = "closed"
+London_Status = "closed"
+
+If (Local_Hour > 9) Then
+  If (Local_Hour < 21) Then
+    Local_Status = "open"
+  EndIf
+EndIf
+
+If (New_York_Hour > 9) Then
+  If (New_York_Hour < 21) Then
+    New_York_Status = "open"
+  EndIf
+EndIf
+
+If (London_Hour > 9) Then
+  If (London_Hour < 21) Then
+    London_Status = "open"
+  EndIf
+EndIf
+
+TextWindow.WriteLine("The current local time is " + Local_Time)
+TextWindow.WriteLine("The local branch is " + Local_Status)
+TextWindow.WriteLine("The New York branch is " + New_York_Status)
+TextWindow.WriteLine("The London branch is " + London_Status)
+
+If(London_Status="closed") Then
+  File.CopyFile("C:\Users\Student\Desktop\Small Basic Folder 1\Document.txt","C:\Users\Student\Desktop\Small Basic Folder 2")
+  TextWindow.WriteLine("")
+  TextWindow.WriteLine("Your file has been copied. ")
+EndIf

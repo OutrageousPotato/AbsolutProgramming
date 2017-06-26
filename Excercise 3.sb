@@ -1,0 +1,1 @@
+File.CopyFile("C:\Users\Student\Desktop\Small Basic Folder 1\Document.txt","C:\Users\Student\Desktop\Small Basic Folder 2")
