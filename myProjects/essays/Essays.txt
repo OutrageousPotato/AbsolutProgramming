@@ -1,0 +1,144 @@
+Big Data: Terms that describes the amalgamation of incredibly vast amounts of data, the infrastructure needed to enable it, and the social ramifications that emanate therefrom
+Buffer: To hold and amass incoming data until it is of sufficient quantity to begin some process, e.g. video playback.
+Bug: an error in programming that results in some unwanted outcome
+Business Intelligence: Technology used to transform raw data into meaningful information
+Crowdsourcing: utilising the social networking capabilities of the internet to de-localize and greatly increase the accrual of a resource such as work or funding
+Export: To take something from inside a program or location in a computer and send it somewhere else, either elsewhere on the computer or to some external device
+Import: To take something from elsewhere on a computer or external device and bring it into a program or location on a computer
+Pixels: The individual display units of a monitor, which can be either on or off
+Raw data: Data that is still in its initial form and has yet to be processed or formatted in any way
+Refine: To take something and process and/or format it in such a way that it becames streamlined or more precise
+Resolution: In graphics, the density of pixels in a display
+Upload: To take a file and send a copy of it from a client to a server
+Video editing: The act of refining video by trimming unnecessary parts and/or rearranging others.
+
+
+
+API - Application Programming Interface, a special part of a program designed to allow programmers to easily share data with or from other programs
+Blog - An online journal, typically formatted in a hierarchy of collapsible entries called 'posts'
+Interface - Everything in a computer that a user interacts with (display, keyboard, mouse, etc)
+Online discussion forum - A structured series of pages referred to as 'threads' where users can have conversations through persistent textual postings, typically organized by subject 
+Podcast - Audio (sometimes video) medium where the creator creates episodic content that can be accessed on demand, usually by RSS feed
+System - A computer and all the components required for it to run
+Thread - 1. A self-contained series of comments in a discussion forum. 2. A sequence of system tasks designed to achieve a desired result
+Trolling - The act of being deliberately provocative on a message board or comment section for malicious and unproductive reasons
+Wiki - a type of website that allows any person to edit it
+Wikipedia - An online encyclopedia and the world's largest and best [citation needed] wiki.
+
+
+
+
+
+Augmented Reality - technology that allows a camera-equipped device (e.g. a smartphone) to show a live feed of what it sees with additional elements superimposed over it
+Batch Processing - The act of processing large quantities of raw data all together in a sequence.
+Bit torrent - Peer to Peer technology for enabling rapid dissemination of large files by splitting them up into small fractions that can be individually shared simultaneously from client to client rather than from a server
+Characters - atomic units of text; e.g. letters, numbers or symbols
+Defragment - to reduce the entropy of a hard drive by relocating data so that, to the extent possible, files are each located in a single place rather than split apart, in the hopes of improving performance
+Gigabyte - a measurement of data storage; can be equal to either a billion bytes or 2 to the 30th power bytes.
+HD (High Definition) - in graphics, possessing exceptional clarity
+High res - in graphics, possessing an exceptionally high pixels-per-area ratio, an attribute that allows for HD
+QR code - a square graphic consisting of an array of digital on-off signals that can encode any kind of information, similar to a bar code but much more versatile
+RSS (Rich Site Summary) - A means of syndicating content (e.g. a blog or podcast) to subscribers in such a way that they can be notified automatically when new content is available
+Social Media - Web-based form of communication where users can create, share and comment on each others' personal thoughts, photographs, and fake news
+
+
+
+
+
+-BMP (bitmap) - a file format for images which contains a 'map' of where each pixel goes
+-Byte - 8 bits, capable of storing 256 discrete values
+-Data format - the structure into which data is organized, necessary to know so it can be read
+-Encode - to take some some information and translate it into another form so it can be understood by another system
+-File format - the structure of a digital document which tells the computer how to read it
+-Flag - A marker to indicate the presence or absence of a particular conditional
+-Source code - The original code of a program as entered by the programmer, prior to compiling
+-Stream - the flow of information from a computer to another computer or device
+
+
+
+
+a.
+
+-Algebra - mathematical system of representing unknown values with variables so they can be plugged into equations and evaluated
+-Branch - a point in a piece of code where the program will split into one of two potential paths depending on a condition
+-Execute - to carry out a command
+-Increment - to increase something by some amount
+-Initialize - to prepare something for some process
+-Loop - a command that repeats until a specified condition is achieved
+-Optimization - the process of making something as efficient as it can be
+-Set - a collection of things, typically values or strings
+-Syntax - the rules describing the proper structure of words in a language needed to produce meaningful commands
+
+b. 
+
+1. set numSandwich equal to 1
+2. repeat steps 3-4 until numSandwich equals 1000
+3. make numSandwich sandwiches
+4. increment numSandwich by 1
+5. eat all the sandwiches
+6. print "Wow, I can't believe I ate so many sandwiches!"
+
+
+
+
+
+
+The most important component in a computer is the motherboard which is the thing to which all other components (CPU, RAM, graphics cards, expansion slots, peripherals) are connected. The CPU is the component that does all the actual data processing, one command at a time at a rate of billions per second. The timing of this activity is controlled by the clock, which instructs the CPU to execute its commands at regular intervals via discrete pulses of 5V of electricity. 
+
+The CPU is connected to the RAM, a temporary storage container for data. As the clock pulses the CPU is able to execute commands about what to do with data that is in RAM using a data bus, which communicates specific commands and values, and an address bus, which communicates precisely where on the RAM the corresponding information is to be found or placed.
+
+The CPU also contains the ALU which handles all math operations. Numbers are stored in binary form in groups of eight bits called a byte. A bit is one individual transistor set as on (electricity flowing) or off (electricity no flowing). Math is accomplished by special circuits which are basically combinations of different types of gates arranged in various configurations. Gates are logical operators which change a transistor's state to on or off based on the conditions of their inputs. This process can be iterated to accomplish any arithmetic functions on any set of numbers.
+
+It's useful to know these basic computer functions because it helps to internalize the reality that computers at their basic level have no intentionality and do not think in the way that it intuitively feels to us like they do. While we may occasionally adopt the Intentional Stance towards them as a shorthand, using expressions like "Dave's computer wants x" or "my computer is acting churlishly today," this conception is fundamentally incorrect. It's often stated that at their core computers are 'just obeying commands," but even this formulation profoundly overstates their abilities. To say they are obeying implies they rise to some bare minimum level of cognition where words like 'obey' even have meaning, when ultimately computers are just electricity doing what electricity does. Bearing this fact in mind helps us remember that we are the ones with the power to solve whatever problems we encounter.
+
+I learned a great deal about the basic layout of computer components and how they interact with each other in the course. The most helpful insight was the extreme degree of simplicity required of each individual instruction to the CPU in order to amount to something meaningful in the aggregate.
+
+
+
+
+-Asynchronous - as of a process, broken into pieces and happening with no set interval or regularity
+-Bits per second (bps) - unit measuring the rate of data transfer between two computers and/or devices
+-Card - a physical circuit board added to a computer to add some kind of functionality
+-Compress - to make a computer file smaller by streamlining the data in some manner
+-CRC - Cyclic Redundancy Check, a method of error detection applied during data transfers
+-Driver - computer program that enables a computer and peripheral device to communicate
+-G - Giga, prefix meaning one billion (or the power of 2 that is closest to it)
+-GB - Gigabytes, 2 to the 30th bytes
+-Mbps - Megabits-per-second, number of megabits transferred each second during an upload/download
+-SD Card - a tiny card storage device typically capable of storing 1MB to 2GB of data	
+
+
+
+-Array - a set of two or more things stored sequentially
+-ASP.NET - a framework for building advanced websites designed by Microsoft
+-Assembly language - a low-level language very close to being comprehensible by computer directly
+-Back end - the portion of a website, program, etc. a user doesn't see
+-BASIC - a language developed in the 60s originally intended just for writing simple programs that has evolved to be more versatile
+-C - a lower level language developed in the late 60s from which many other languages borrow many concepts
+-C# - language developed in the late 90s, one of the most popular languages today 
+-C++ - very common language developed in the 1980s which can be used in conjunction with some other languages
+-High level language - a language that is far removed from what computers can read directly and closer to normal human language
+-Low level language - a language that is closeer to being code comprehensible by computers directly
+-Compiler - special type of program that converts higher level code into machine code, all in one go
+-Interpreter - does the same thing as a compiler but one command at a time
+-Front end - the portion of a website, program, etc. that a user sees
+-Java - general purpose language created in the 90s designed to eliminate common errors
+-JavaScript - language most often used to make interactive features of websites
+-JQuery - a library (collection of files) of JavaScript tools for adding extra things to websites
+-JSON - a code used for exchanging data which is easy for both people and computers to comprehend
+-Load - the number of simultaneous current users of a website or program
+-Load Testing - testing a website to see how it performs under high-load conditions
+-Object-oriented programming - a method of programming focused on identifying the specific objects and data to be used by the program and then constructing a framework of how to operate on them
+-Scripting language - language oriented towards writing small programs designed to automate common tasks
+
+
+
+
+
+-The Internet of things (IOT) - the integration of internet connectivity into appliances and other things, designed to add some kind of bonus functionality
+-Blended learning - an educational environment that includes both in-person and online components
+-Online Advertising - Marketing content delivered via the internet, e.g. spam, search engine ads, etc.
+-Online photo sharing - the publishing or disseminating of photographs online, usually on some kind of social network
+-Website evaluation - the process of judging a website's legitimacy and reliability as a source of information
+-Digital citizenship - the concept of the state of belonging to an online community with an implicit set of consensus-based standards of behavior
+-Net neutrality - the concept that ISPs should not be allowed to discriminate when deciding the availability or quality of connection they provide for different entities

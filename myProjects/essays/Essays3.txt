@@ -1,0 +1,60 @@
+Data Structure is concrete implementation of an abstract data type, i.e. the specific way in which data is stored and retrieved.
+
+
+
+
+
+
+a. Define the following terms in your own words and email them to your instructor:
+
+Abstract data: Data regarded as not having any corresponding real-word meaning, useful for focusing on the underlying logic of its structured
+Assembly language: A low-level coding language in which many common commands have been assigned to siimple words, very easily translated (assembled) into machine code 
+Assignment: The establishment of the value of a variable 
+Expression: Any discrete self-contained unit of code that returns a value
+Hexadecimal: Counting system with a base 16, using the digits 0-9 and the letters A-F
+Opcode: The portion of code in a command that tells the machine what operation to perform
+Operand: An object (piece of data) upon which to perform whatever operation specified by the opcode
+
+b. What is this equation and what does it mean?
+
+DIGIT * (BASE ^ POSITION #)
+
+This is the equation for determining the value represented by a single digit in a number in any given base system.
+
+
+
+
+
+FINAL ESSAY:
+At the beginning of this book, we covered the five elements of a program:
+1. Entrance.
+2. Control/branching.
+3. Variables.
+4. Sub Program.
+5. Exit.
+Write an essay explaining how the program you wrote in Exercise 5 contained the five elements
+of a program.
+
+In this simple program, the entrance and exit are just the first and last line of code. Control/Branching occurs at seven points in the program: For each branch office there is are two If statements nested one in the other to check to see if the local time is in the range during which the branch is to be open, and once at the end to check to see if the London branch's status is closed and if so copy the file. Finally, there is a sub program containing all of the logic to check the clock time and determine the status of all three branches.
+
+
+
+
+
+What did you learn from watching the previous video?
+Flowcharting
+problem solving, half-splitting
+Programming skill = how to think, not memorizing commands
+Isolating tiny problems within the overal problem and working on those
+Dictionaries
+Comments in code
+
+
+How can you handle barriers you run into during your study here at the school?
+Asking the instructors for help!
+
+What did you gain from doing this entire course?
+
+
+How can you use the information herein in your career as a software developer?
+

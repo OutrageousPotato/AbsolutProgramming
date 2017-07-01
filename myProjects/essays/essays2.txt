@@ -1,0 +1,12 @@
+What is a "class"? A type of object, with its own unique set of attributes and behaviors
+What is an "object"? A piece of data with a set of attributes that programs can execute actions upon
+What is an "instance"? One particular occurrence of a particular class of object
+What is a "constructor"? A method that calls an instance into being and sets any initial values that are to be set
+What is "state" versus "stateless"? State - The particular set of qualities at a given point in time of something, e.g. an object. Stateless - Having no functionality of being able to change its state
+What is "encapsulation"? Obscuring the details of how a particular piece of code operates from the program or user who executes it
+What is "inheritance"? (As a class) The attribute of receiving some aspect of its makeup from another class
+How is the parent/child relationship used in programming? Child classes inherit attributes from their parent classes
+What is "composition/aggregation"? The state of two or more objects being connected together in order to represent a larger cohesive whole
+What is "polymorphism"? - The quality of occurring in different forms, e.g. behavior defined in a parent class being available in its corresponding child classes
+What is an "index"? A set of metadata that describes where each data point can be found 
+What is a "loop"? A sequence of instructions that will repeat until some specified condition is met	
